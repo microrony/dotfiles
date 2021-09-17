@@ -1,0 +1,7 @@
+[user]
+	email = microronyy@gmail.com
+	name = Mahabubur Rahman
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
