@@ -1,0 +1,5 @@
+Here’s the thing about Vim.
+Ex mode too, and it’s magic! 
+Ex commands, there be dragons!
+Until you realize it can help you be more efficient.
+Learning about regexes sounds boring,
