@@ -17,3 +17,5 @@ set undodir=~/.vim/undo
 
 " number of undo saved
 set undolevels=10000
+
+syntax on
