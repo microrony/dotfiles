@@ -79,6 +79,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+autoload -U compinit && compinit
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
