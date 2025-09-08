@@ -25,3 +25,7 @@ news.version=3.4.1
 #include solarized-light-256.theme
 #include no-color.theme
 
+sync.server.url=http:\/\/oracle:53589\/
+sync.server.client_id=774f46d7-7b8c-4b6c-a50f-b1169cd6ca85
+sync.encryption_secret=SHA256:0AxRMWqcbvlrV/093QKxsLF+5xFuD4032rAB5ZU9ono
+
