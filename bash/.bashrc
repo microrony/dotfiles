@@ -19,4 +19,4 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
 # export EDITOR="code"
 #
 # Set a custom prompt with the directory revealed (alternatively use https://starship.rs)
-PS1="\W \[\e]0;\w\a\]$PS1"
+# PS1="\W \[\e]0;\w\a\]$PS1"
