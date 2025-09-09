@@ -14,6 +14,9 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
+
+alias timew="ssh oracle timew"
+
 #
 # Use VSCode instead of neovim as your default editor
 # export EDITOR="code"

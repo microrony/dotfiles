@@ -1,0 +1,13 @@
+[Unit]
+Description=Timewarrior Backup Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=__USER__
+ExecStart=/home/__USER__/bin/timew-backup
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
