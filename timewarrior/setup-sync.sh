@@ -14,7 +14,7 @@ mkdir -p ~/.ssh/sockets
 mkdir -p ~/bin
 
 # Install stow package
-stow -d "$DOTFILES_DIR" timewarrior
+stow -d "$DOTFILES_DIR" timewarrior --adopt
 
 # Set permissions
 chmod +x ~/bin/timew-backup
