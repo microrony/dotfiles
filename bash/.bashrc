@@ -6,8 +6,8 @@ source ~/.local/share/omarchy/default/bash/rc
 #
 # Make an alias for invoking commands you use constantly
 # alias p='python'
-alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
-alias ua-update-mirrors='export TMPFILE="$(mktemp)"; \
+alias drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
+alias update-mirrors='export TMPFILE="$(mktemp)"; \
     sudo true; \
     rate-mirrors --save=$TMPFILE --max-jumps 99 --country-neighbors-per-country 99 --country-test-mirrors-per-country 99 --top-mirrors-number-to-retest 20 arch --max-delay=21600 \
       && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
