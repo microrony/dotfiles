@@ -14,6 +14,7 @@ alias update-mirrors='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist'
 
 alias timew="ssh oracle timew"
+alias lg="lazygit"
 
 #
 # Use VSCode instead of neovim as your default editor
