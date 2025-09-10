@@ -27,5 +27,19 @@ news.version=3.4.1
 
 sync.server.url=http:\/\/oracle:53589\/
 sync.server.client_id=774f46d7-7b8c-4b6c-a50f-b1169cd6ca85
-sync.encryption_secret=SHA256:0AxRMWqcbvlrV/093QKxsLF+5xFuD4032rAB5ZU9ono
+sync.encryption_secret=0AxRMWqcbvlrV/093QKxsLF+5xFuD4032rAB5ZU9ono
 
+context.work.read=project:work
+context.work.write=project:work
+context.fun.read=+fun
+context.fun.write=+fun
+report.info.annotations=count
+context.office.read=project:work and scheduled.before.tomorrow or due.before:tomorrow
+context.office.write=project:work
+alias.co=context office
+alias.to=context none && (scheduled.before:tomorrow or due.before:tomorrow)
+
+context.dev.read=project:dev
+context.dev.write=project:dev
+alias.cd=context dev
+context=dev
