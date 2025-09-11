@@ -33,7 +33,7 @@ deleted    = ""
 
 # Taskwarrior indicators 
 [custom.task_count_pending]
-command = 'count=$(task count rc.verbose=nothing rc.gc=off status:pending); [ "$count" -gt 0 ] && echo " $count"'
+command = 'count=$(task count rc.verbose=nothing rc.gc=off status:pending -ACTIVE); [ "$count" -gt 0 ] && echo " $count"'
 when = "which task"
 format = "[$output]($style) "
 style = "cyan"
