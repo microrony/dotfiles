@@ -33,13 +33,13 @@ deleted    = ""
 
 # Taskwarrior indicators 
 [custom.task_count_pending]
-command = 'count=$(task count rc.verbose=nothing rc.gc=off status:pending -ACTIVE -OVERDUE); [ "$count" -gt 0 ] && echo " $count"'
+command = 'count=$(task count rc.verbose=nothing rc.gc=off +READY -ACTIVE -OVERDUE); [ "$count" -gt 0 ] && echo " $count"'
 when = "which task"
 format = "[$output]($style) "
 style = "cyan"
 
 [custom.task_count_active]
-command = 'count=$(task count rc.verbose=nothing rc.gc=off status:pending +ACTIVE); [ "$count" -gt 0 ] && echo " $count"'
+command = 'count=$(task count rc.verbose=nothing rc.gc=off +ACTIVE); [ "$count" -gt 0 ] && echo " $count"'
 when = "which task"
 format = "[$output]($style) "
 style = "green"

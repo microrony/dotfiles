@@ -11,7 +11,7 @@ news.version=3.4.1
 # Color theme (uncomment one to use)
 #include light-16.theme
 #include light-256.theme
-#include bubblegum-256.theme
+include bubblegum-256.theme
 #include dark-16.theme
 #include dark-256.theme
 #include dark-red-256.theme
@@ -44,8 +44,8 @@ context.dev.read=project:dev
 context.dev.write=project:dev
 alias.cd=context dev
 alias.cn=context none
-context.prayer.read=project:prayer
-context.prayer.write=project:prayer
+context.prayer.read=+prayer
+context.prayer.write=+prayer
 context.personal.read=project:personal
 context.personal.write=project:personal
 alias.cw=context work
@@ -57,9 +57,14 @@ alias.pwork=project:work
 alias.pprayer=project:prayer
 alias.pdev=project:dev
 alias.paccelerator=project:work.futurereadyx.accelerator
-alias.pknowledge=project:personal.knowledge
+alias.pknowledge=project:knowledge
 alias.pproductive=project:personal.productivity
 context.productive.read=project:personal.productivity
 context.productive.write=project:personal.productivity
 alias.cpp=context productive
-context=productive
+alias.pst=project:work.futurereadyx.st
+alias.slts=+LATEST start
+urgency.user.tag.costly.coefficient=15
+urgency.user.tag.next.coefficient=99
+alias.cp=context personal
+context=work
