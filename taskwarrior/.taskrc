@@ -71,4 +71,6 @@ alias.pwfst=project:work.futurereadyx.st
 alias.pwf=project:work.futurereadyx
 alias.y=yes
 alias.pwfmyp=project:work.futurereadyx.myp
+alias.pst=project:work.futurereadyx.st
+alias.pmyp=project:work.futurereadyx.myp
 context=work

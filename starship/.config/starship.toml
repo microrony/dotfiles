@@ -31,7 +31,7 @@ staged     = ""
 renamed    = ""
 deleted    = ""
 
-# Taskwarrior indicators 
+# Taskwarrior indicators
 [custom.task_count_pending]
 command = 'count=$(task count rc.verbose=nothing rc.gc=off +READY -ACTIVE -OVERDUE); [ "$count" -gt 0 ] && echo " $count"'
 when = "which task"
