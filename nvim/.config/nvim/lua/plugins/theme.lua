@@ -1,0 +1,1 @@
+/home/microrony/.config/omarchy/current/theme/neovim.lua
